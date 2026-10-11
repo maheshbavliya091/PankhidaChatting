@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Unzip project files
-        run: unzip -o project.zip -d .
+        run: unzip -o PankhidaChatting.zip -d .
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
